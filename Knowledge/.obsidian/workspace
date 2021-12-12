@@ -1,0 +1,102 @@
+{
+  "main": {
+    "id": "7e54f453f1c96b62",
+    "type": "split",
+    "children": [
+      {
+        "id": "d4d57aea820dacff",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Aerospace Engineering/Propulsion I.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2fda11b608c92ab0",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e19609ed15afcf4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27584ce033cff736",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b3b60db0399c6512",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "d0cf44f0cd068793",
+    "type": "split",
+    "children": [
+      {
+        "id": "175873c135e758b1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89093f3cad48077a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Aerospace Engineering/Propulsion I.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "d4d57aea820dacff",
+  "lastOpenFiles": [
+    "Aerospace Engineering/Propulsion I.md",
+    "Aerospace Engineering/Instrument Flying I.md",
+    "Aerospace Engineering/Flying II.md",
+    "Aerospace Engineering/Flying I.md",
+    "Aerospace Engineering/Aircraft I.md",
+    "Aerospace Engineering/Aerodynamics I.md",
+    "Aerospace Engineering/Air Traffic Control I.md",
+    "Learning/About.md",
+    "Software Engineering/About.md",
+    "Physics/About.md"
+  ]
+}
