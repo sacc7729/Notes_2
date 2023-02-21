@@ -1,6 +1,6 @@
 # Prequisites
 [[Operating Systems I]]
-[[C I]]
+[[C]]
 [[Computer Architecture I]]
 
 # References
