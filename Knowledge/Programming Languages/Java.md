@@ -1,5 +1,5 @@
 # Prequisites
-[[Java I]]
 
 # References
+Head First Java
 Effective Java

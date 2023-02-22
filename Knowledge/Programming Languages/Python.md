@@ -1,5 +1,5 @@
 # Prequisites
-[[Python I]]
 
 # References
+Python Crash Course
 Python Cookbook

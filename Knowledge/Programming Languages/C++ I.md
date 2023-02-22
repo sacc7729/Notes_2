@@ -1,4 +1,0 @@
-# Prequisites
-
-# References
-C++ Primer

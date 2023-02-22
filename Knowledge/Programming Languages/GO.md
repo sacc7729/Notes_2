@@ -1,5 +1,5 @@
 # Prequisites
-[[C++ II]]
 
 # References
-Exceptional C++
+Go Tour
+Effective Go

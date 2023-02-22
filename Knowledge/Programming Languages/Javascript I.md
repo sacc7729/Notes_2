@@ -1,4 +1,0 @@
-# Prequisites
-
-# References
-javascript.info
