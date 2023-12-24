@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/Software Engineering/Dealing with Large Amounts of Data.md",
+                "file": "Knowledge/Economics/Business/Financial Reports.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge/Software Engineering/Dealing with Large Amounts of Data.md",
+                "file": "Knowledge/Economics/Business/Financial Reports.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge/Software Engineering/Dealing with Large Amounts of Data.md",
+                "file": "Knowledge/Economics/Business/Financial Reports.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/Software Engineering/Dealing with Large Amounts of Data.md"
+                "file": "Knowledge/Economics/Business/Financial Reports.md"
               }
             }
           }
@@ -193,10 +193,22 @@
   },
   "active": "01177e56f49efaea",
   "lastOpenFiles": [
-    "Knowledge/Software Engineering/Software Architecture.md",
-    "Knowledge/Software Engineering/Dealing with Large Amounts of Data.md",
-    "Knowledge/Other/Design.md",
+    "Knowledge/TODO.md",
+    "Knowledge/Economics/Business/Financial Reports.md",
+    "Knowledge/Economics/Business.md",
+    "Knowledge/Economics/Business",
+    "Machine Learning Problem Sets.md",
+    "Knowledge/Software Engineering/Software Architecture II.md",
+    "Knowledge/Software Engineering/Software Architecture I.md",
+    "Knowledge/Aerospace Engineering/Flying II.md",
+    "Knowledge/Aerospace Engineering/Flying I.md",
     "Knowledge/Software Engineering/Organizations that Build Software.md",
+    "Knowledge/Software Engineering/Dealing with Large Amounts of Data.md",
+    "Knowledge/Math/Mathematics for Computer Science.md",
+    "Knowledge/Math/Measure Theory.md",
+    "Knowledge/Math/Calculus.md",
+    "Knowledge/Math/Category Theory.md",
+    "Knowledge/Other/Design.md",
     "Knowledge/Physics/Electrodynamics.md",
     "Knowledge/Physics/Electrodynamics II.md",
     "Knowledge/CS Theory/Programming I.md",
@@ -208,18 +220,7 @@
     "Knowledge/CS Theory/Distributed Systems I.md",
     "Knowledge/CS Theory/Databases III.md",
     "Knowledge/CS Theory/Cryptography II.md",
-    "Knowledge/CS Theory/Cryptography I.md",
-    "Knowledge/CS Theory/Computer Architecture II.md",
-    "Knowledge/CS Theory/Computer Architecture I.md",
-    "Knowledge/CS Theory/Compilers II.md",
-    "Knowledge/CS Theory/Compilers I.md",
-    "Knowledge/CS Theory/Algorithms II.md",
-    "Knowledge/CS Theory/Algorithms I.md",
-    "Knowledge/Learning/About.md",
-    "Knowledge/Software Engineering/About.md",
-    "Knowledge/Other/Systems Level Thinking.md",
     "Knowledge/Other",
-    "Knowledge/Economics",
-    "Knowledge/Aerospace Engineering/Aerodynamics I.md"
+    "Knowledge/Economics"
   ]
 }
