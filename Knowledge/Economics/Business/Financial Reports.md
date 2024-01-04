@@ -57,3 +57,27 @@ Examples of cash outflow:
 * Building Improvements
 
 # Connections
+
+Some useful assumptions from connections between the financial reports:
+
+$\frac{balance\_sheet.accounts\_payable}{income\_statement.revenue} = \text{period of uncollected revenue per year}$
+
+$\frac{balance\_sheet.accounts\_payable}{income\_statement.revenue} = \text{aversage sales credit period per year}$
+
+$\frac{balance\_sheet.inventory}{cost\_of\_goods\_sold\_expense} = \text{average inventory holding period per year}$
+
+$\frac{1 - cost\_of\_goods\_sold\_expense}{income\_statement.revenue} = \text{gross margin}$
+
+
+
+
+
+
+
+
+
+
+
+
+
+
