@@ -49,14 +49,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/Economics/Business/Financial Reports.md",
+                "file": "Knowledge/TODO.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "2bb470d919474f2f",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -130,7 +138,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge/Economics/Business/Financial Reports.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +154,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge/Economics/Business/Financial Reports.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,9 +175,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Knowledge/Economics/Business/Financial Reports.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -191,35 +195,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "01177e56f49efaea",
+  "active": "2bb470d919474f2f",
   "lastOpenFiles": [
-    "Knowledge/TODO.md",
-    "Knowledge/Economics/Business/Financial Reports.md",
-    "Knowledge/Economics/Business.md",
-    "Knowledge/Economics/Business",
+    "Knowledge/Aerospace Engineering/Aerodynamics I.md",
     "Machine Learning Problem Sets.md",
+    "Knowledge/TODO.md",
     "Knowledge/Software Engineering/Software Architecture II.md",
     "Knowledge/Software Engineering/Software Architecture I.md",
-    "Knowledge/Aerospace Engineering/Flying II.md",
-    "Knowledge/Aerospace Engineering/Flying I.md",
     "Knowledge/Software Engineering/Organizations that Build Software.md",
     "Knowledge/Software Engineering/Dealing with Large Amounts of Data.md",
-    "Knowledge/Math/Mathematics for Computer Science.md",
-    "Knowledge/Math/Measure Theory.md",
-    "Knowledge/Math/Calculus.md",
-    "Knowledge/Math/Category Theory.md",
-    "Knowledge/Other/Design.md",
+    "Knowledge/Software Engineering/About.md",
+    "Knowledge/Programming Languages/SQL.md",
+    "Knowledge/Programming Languages/R.md",
+    "Knowledge/Programming Languages/Python.md",
+    "Knowledge/Programming Languages/Javascript.md",
+    "Knowledge/Programming Languages/Java.md",
+    "Knowledge/Programming Languages/Haskell.md",
+    "Knowledge/Programming Languages/GO.md",
+    "Knowledge/Programming Languages/Dart.md",
+    "Knowledge/Programming Languages/C++.md",
+    "Knowledge/Programming Languages/C.md",
     "Knowledge/Physics/Electrodynamics.md",
     "Knowledge/Physics/Electrodynamics II.md",
-    "Knowledge/CS Theory/Programming I.md",
-    "Knowledge/CS Theory/Operating Systems III.md",
-    "Knowledge/CS Theory/Operating Systems II.md",
-    "Knowledge/CS Theory/Operating Systems I.md",
-    "Knowledge/CS Theory/Machine Leaning.md",
-    "Knowledge/CS Theory/Distributed Systems II.md",
-    "Knowledge/CS Theory/Distributed Systems I.md",
-    "Knowledge/CS Theory/Databases III.md",
-    "Knowledge/CS Theory/Cryptography II.md",
+    "Knowledge/Physics/Cosmology II.md",
+    "Knowledge/Physics/Cosmology I.md",
+    "Knowledge/Physics/Condensed Matter Physics.md",
+    "Knowledge/Physics/Astrophysics I.md",
+    "Knowledge/Physics/Astronomy I.md",
+    "Knowledge/Other/Systems Level Thinking.md",
+    "Knowledge/Economics/Business",
     "Knowledge/Other",
     "Knowledge/Economics"
   ]

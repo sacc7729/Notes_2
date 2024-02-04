@@ -81,4 +81,13 @@ $$W = \frac{N!}{\prod_in_i!}$$
 Entropy can also be defined as
 $$H = \frac{1}{N}ln(W)$$
 
+# Distributions
+
+# Linear Regression
+
+# Linear Classification
+
+# Neural Networks
+
+# Kernel Methods
 
