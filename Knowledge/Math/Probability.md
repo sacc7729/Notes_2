@@ -17,7 +17,9 @@ $P(\{\}) = 0$
 $P(A_i \bigcup A_j) = P(A_i) + P(A_j) - P(A_1 \bigcap A_j)$
 $P(A|B) = \frac{P(A \bigcap B)}{P(B)}$
 
+$P(B) = \sum\limits_i P(B|A_i)P(A_i)$
 
+### Random variable stuff
 
 
 
