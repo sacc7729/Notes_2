@@ -4,6 +4,9 @@ probabilitybook.net
 
 # Basics
 
+The sample 
+
+
 # Boolean Algebra
 
 # Stuff

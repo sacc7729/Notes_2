@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/Math/Calculus.md",
+                "file": "Knowledge/Math/Probability.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge/Math/Calculus.md",
+                "file": "Knowledge/Math/Probability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge/Math/Calculus.md",
+                "file": "Knowledge/Math/Probability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/Math/Calculus.md"
+                "file": "Knowledge/Math/Probability.md"
               }
             }
           },
@@ -208,6 +208,7 @@
   },
   "active": "d07f23ea3958e66d",
   "lastOpenFiles": [
+    "Knowledge/Math/Calculus.md",
     "Knowledge/Math/Set Theory.md",
     "Knowledge/TODO.md",
     "Knowledge/Math/Probability.md",
@@ -236,7 +237,6 @@
     "Knowledge/Physics/Electrodynamics.md",
     "Knowledge/Physics/Electrodynamics II.md",
     "Knowledge/Physics/Cosmology II.md",
-    "Knowledge/Physics/Cosmology I.md",
     "Knowledge/Economics/Business",
     "Knowledge/Other",
     "Knowledge/Economics"
