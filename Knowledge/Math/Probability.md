@@ -114,6 +114,72 @@ $Pr(x; \sigma, \mu) = \frac{1}{\sigma \sqrt{2\pi}} e^{-\frac{1}{2} (\frac{x-\mu}
 $E[X] = \mu$
 $var(X) = \sigma^2$
 
-## Joint Distributions
+## Multivariate Distributions
+
+### Discrete
+
+A **joint** or multivariate distribution is of a form similar to (in the case of two random variables):
+
+$p_{x,y}=P(X=x, Y=y)$
+
+A **marginal** or unconditional distribution is a distribution for only one variable of a multivariate distribution.  E.g. $p_x$ for $p_{x,y}$:
+
+$P(X=x) = \sum\limits_y P(X=x, Y=y)$
+
+The **conditional** distribution is the distribution for a variable given another variable:
+$P(X=x|Y=y_1)$.
+
+For Bayes rule with join distributions:
+
+both discrete: $P(Y=y|X=x) = \frac{P(X=x|Y=y) P(Y=y)} {P(X=x)}$
+both continuous: $f_{Y|X}(y|x) = \frac{f_{X|Y}(x|y) f_Y(y)}{f_X(x)}$
+
+If X and Y are independent
+
+both discrete: $F_{X,Y}(x,y) = F_X(x) F_Y(y)$
+both continuous: $f_{X,Y}(x,y) = f_X(x)f_Y(y)$
+
+There are also hybrid models when one random variable is discrete and another random variable is continuous.
+
+### Covariance
+
+Covariance is the relation of two random variables to each other.  If the covariance between two random variables is 0, then they are independent.
+
+$Cov(X,Y) = E((X-EX)(Y-EY))$
+$=E(XY) - E(X)E(Y)$
+
+
+### Multinomial Distribution
+
+Like the Binomial but with multiples success and failure cases:
+
+$P(X_1=n_1, X_2=n_2, ..., X_k=n_k) = \frac{n!}{n_1!n_2!...n_k!} p_1^{n_1}p_2^{n_2}...p_k^{n_k}$
+
+### Multivariate Gaussian
+
+TODO: ... explained well in pattern recognition
+
+## Transformations
+
+$f_Y(y) = f_X(x)|\frac{dx}{dy}|$
+
+## 
+## Other useful things
+
+Beta
+
+Gamma
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Markov Chains
