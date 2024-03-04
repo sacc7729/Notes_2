@@ -194,7 +194,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,12 +209,14 @@
   },
   "active": "d07f23ea3958e66d",
   "lastOpenFiles": [
-    "Knowledge/Math/Number Theory.md",
     "Knowledge/Math/Abstract Algebra.md",
+    "Knowledge/Math/Set Theory.md",
+    "Knowledge/Math/Group Action.md",
+    "Knowledge/Math/Group Classification.md",
     "Knowledge/Math/Calculus.md",
     "Knowledge/Math/Probability.md",
+    "Knowledge/Math/Number Theory.md",
     "Knowledge/Math/Linear Algebra.md",
-    "Knowledge/Math/Set Theory.md",
     "Knowledge/TODO.md",
     "Knowledge/CS Theory/Machine Leaning.md",
     "2024-02-04.md",
@@ -235,8 +238,6 @@
     "Knowledge/Programming Languages/Haskell.md",
     "Knowledge/Programming Languages/GO.md",
     "Knowledge/Programming Languages/Dart.md",
-    "Knowledge/Programming Languages/C++.md",
-    "Knowledge/Programming Languages/C.md",
     "Knowledge/Economics/Business",
     "Knowledge/Other",
     "Knowledge/Economics"
