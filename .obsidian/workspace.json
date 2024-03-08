@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/Math/Probability.md",
+                "file": "Knowledge/CS Theory/Machine Leaning.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +121,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "76bc7a3380fdc593",
@@ -137,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge/Math/Probability.md",
+                "file": "Knowledge/CS Theory/Machine Leaning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge/Math/Probability.md",
+                "file": "Knowledge/CS Theory/Machine Leaning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/Math/Probability.md"
+                "file": "Knowledge/CS Theory/Machine Leaning.md"
               }
             }
           },
@@ -209,12 +210,12 @@
   },
   "active": "d07f23ea3958e66d",
   "lastOpenFiles": [
+    "Knowledge/Math/Probability.md",
     "Knowledge/Math/Abstract Algebra.md",
     "Knowledge/Math/Set Theory.md",
     "Knowledge/Math/Group Action.md",
     "Knowledge/Math/Group Classification.md",
     "Knowledge/Math/Calculus.md",
-    "Knowledge/Math/Probability.md",
     "Knowledge/Math/Number Theory.md",
     "Knowledge/Math/Linear Algebra.md",
     "Knowledge/TODO.md",

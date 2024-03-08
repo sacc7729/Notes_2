@@ -83,7 +83,56 @@ $$H = \frac{1}{N}ln(W)$$
 
 # Distributions
 
+The Beta distribution can be used to give the probability that some population has a variable (e.g. population probability) given a sample.
+
+The Dirichlet distribution can be used to give the probability that some population has a variable given a sample for a multi variable sample.
+
+Some limitations of the gaussian can be overcome by using the Von Mises Distribution (cyclical) and using mixtures of Gaussians (multiple peaks).
+
+Bernoulli is part of the exponential family.  The exponential distribution has the form:
+$p(\vec{x}|\eta) = h(x)g(\eta)e^{\eta^T u(x)}$
+
+
+A kernel function can be thought of as a probability space in three dimensions with different windows (just like windows in a histogram).  One example is to break space into many hypercubes and have a value of 1 if a sample point lies within the space.  Instead of a value of 1, we can use the gaussian if we want to avoid discontinuities.
+
+K nearest neighbors is a technique to classify a point by looking at it's k nearest neighbors and choosing the most common class. K nearest neighbors can be used in regression by taking the average value of k of the nearest neighbors.
+
 # Linear Regression
+
+## Linear Basis
+
+linear models go by the function:
+$y(\vec{x},\vec{w}) = w_0 + \sum \limits_{j=1}^{M-1} w_j \phi_j(\vec{x})$
+$\phi$ is the **basis function** and $w_0$ is the **basis parameter**. $\phi$ does not have to be linear.
+
+**spline functions** break the divide the input space and apply different polynomials to each region.
+
+Different types of basis functions include gaussian, sigmoid, polynomial, and wavelets.
+
+To find $\vec{w}_{ML}$:
+
+$\vec{w}_{ML} = (\Phi^T \Phi)^{-1} \Phi^T \vec{t}$.
+where
+$$\Phi = \begin{bmatrix}
+\phi_0(x_1) && \phi_1(x_1) & ... & \phi_{M-1}(x_1) \\
+\phi_0(x_2) && \phi_1(x_2) & ... & \phi_{M-1}(x_2) \\
+... && ... && ... \\
+\phi_0(x_N) && \phi_1(x_N) & ... & \phi_{M-1}(x_N) \\
+
+\end{bmatrix}$$
+
+$\Phi^{\dagger} = (\Phi^T \Phi)^{-1} \Phi^T$. Where $\Phi^{\dagger}$ is known as the Moore-Penrose pseudo-inverse of the matrix $\Phi$.
+
+
+Finding the maximum likelihood function can be computationally costly for large data sets.  In this case it may be worthwhile to us an on-line algorithm like stochastic gradient descent:
+
+$\vec{w}^{(\tau + 1)} = \vec{w}^{(\tau)} -  \eta \nabla E_n$
+
+where $w^{(0)}$ is the starting vector of weights, $\eta$ is the learning rate parameters, and $E_n$ is the Error for some input $x_n$ (????).
+
+To avoid overfitting we can also use
+$\vec{w}_{ML} = (\lambda I + \Phi^T \Phi)^{-1} \Phi^T \vec{t}$.
+
 
 # Linear Classification
 
