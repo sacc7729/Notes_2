@@ -58,6 +58,8 @@ $$\mathbb{E}[\sigma^2_{ML}] = (\frac{N-1}{N})\sigma^2$$
 Therefore if we have the $\sigma^2_{ML}$ of the sample then we can estaimate the varaince of the population as 
 $$\tilde{\sigma^2} = (\frac{N}{N-1})\sigma^2_{ML}$$
 
+For our data, we are typically given the training set $\vec{x}$ and the corresponding observations $\vec{t}$.
+
 # Model Selection
 Performance on training data is not always a good indication (due to overfitting).  Typically uou want to have a validation set to choose the best predictive performance.  And a test set can be used to confim the data model after validation.
 
@@ -112,7 +114,7 @@ Different types of basis functions include gaussian, sigmoid, polynomial, and wa
 To find $\vec{w}_{ML}$:
 
 $\vec{w}_{ML} = (\Phi^T \Phi)^{-1} \Phi^T \vec{t}$.
-where
+where, $\Phi$, the design matrix is:
 $$\Phi = \begin{bmatrix}
 \phi_0(x_1) && \phi_1(x_1) & ... & \phi_{M-1}(x_1) \\
 \phi_0(x_2) && \phi_1(x_2) & ... & \phi_{M-1}(x_2) \\
