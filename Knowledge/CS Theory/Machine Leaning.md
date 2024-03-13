@@ -126,7 +126,7 @@ $$\Phi = \begin{bmatrix}
 $\Phi^{\dagger} = (\Phi^T \Phi)^{-1} \Phi^T$. Where $\Phi^{\dagger}$ is known as the Moore-Penrose pseudo-inverse of the matrix $\Phi$.
 
 
-Finding the maximum likelihood function can be computationally costly for large data sets.  In this case it may be worthwhile to us an on-line algorithm like stochastic gradient descent:
+Finding the maximum likelihood function can be computationally costly for large data sets $O((N_x * N_\phi)^2)$.  In this case it may be worthwhile to us an on-line algorithm like stochastic gradient descent:
 
 $\vec{w}^{(\tau + 1)} = \vec{w}^{(\tau)} -  \eta \nabla E_n$
 
@@ -135,8 +135,66 @@ where $w^{(0)}$ is the starting vector of weights, $\eta$ is the learning rate p
 To avoid overfitting we can also use
 $\vec{w}_{ML} = (\lambda I + \Phi^T \Phi)^{-1} \Phi^T \vec{t}$.
 
+Analogously, for multiple outputs we have:
+
+$$\vec{y}(\vec{x}, \vec{w}) = W^T\vec{\phi}(\vec{x})$$
+
+### Questions ???
+
+* is the first layer of a neural network just $\sigma(\vec{y})$ where $\vec{\phi_0} = 1$ and $\vec{\phi_{i \neq 0}} = x$
+* Does the sigmoid help at all?  Wouldn't the first layer already map well?
+	* Why two layers?
+	* Does the deformation of a topological mapping help (by way of the sigmoid)
+* Maybe play around with Cat theory
+	* e.g. A set (which a vector belongs to) transforms to a function (technically to a probability of functions for a sample) under the Gaussian transofmation
+
+### Bias-Variance Decomposition
+TODO
+
+### Bayesian Models
+TODO
+
+### Evidence Approximation
+TODO
+
 
 # Linear Classification
+
+A target vector can represent classes.   For example $(0, 0, 1)$ can represent an object where the third class is valid.
+
+The target vector can also have the probabilities of belonging to a class.  For $\vec{t} = (t_0, t_1, ... ,T_K)^T$, $C_k$ is the probability that the class is $t_k$.
+
+For classification we have a non-linear function $f$ where
+$$y_f(\vec{x}) = f(\vec{w}^T \vec{X} + w_0)$$
+(if we don't consider $\phi_0 = 1$).
+
+$f$ is called the **activation function**. The inverse of $f$ is called the **link function**.
+
+$y_f$ is a **generalized linear model** since the decision surfaces are linear functions of $\vec{x}$ (TODO: understand this).
+
+### Discriminant Functions
+
+A simple version of a linear discriminant function is
+
+$$y(\vec{x}) = \vec{w}^T\vec{x} + w_0$$
+
+where $w_0$ is (also) called the **bias** and $\vec{w}$ is the **weight vector**.  The **threshhold** is the negative of the bias.
+
+If we have $y(\vec{x})$ map to $C_1$ if $y \geq 0$, then $y=0$ is the **decision boundary**.
+
+For a $D$ dimensional input space, the decision boundary is a $D-1$ dimensional hyperplane.
+
+$\vec{w}$ determines the orientation of the decision surface and $w_0$ determines it's location.
+
+### Multiple Classes
+
+TODO
+
+### Perceptron
+TODO
+
+Is a single layer of perceptron a linear discriminant function with 2 classes?
+
 
 # Neural Networks
 
