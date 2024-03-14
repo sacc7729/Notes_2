@@ -160,19 +160,26 @@ TODO
 
 # Linear Classification
 
+Classification takes an input vector and assigns it to one of K discrete classes.  (The classes are also disjoint in the most common scenario.). The input space is divided into **decision regions** whose boundaries are called **decision boundaries** or **decision surfaces**.
+
 A target vector can represent classes.   For example $(0, 0, 1)$ can represent an object where the third class is valid.
 
-The target vector can also have the probabilities of belonging to a class.  For $\vec{t} = (t_0, t_1, ... ,T_K)^T$, $C_k$ is the probability that the class is $t_k$.
+The target vector can also have the probabilities of belonging to a class.  For $\vec{t} = (t_0, t_1, ... ,T_K)^T$, $t_k$ is the probability that the class is $C_k$.
+
+There are three distinct ways (two types) of solving classification problems:
+* Creating a discriminant function that assigns $\vec{x}$ to a class
+* Creating a conditional probability distribution that assigns $\vec{x}$ to a probability of a class , e.g. $p(C_k|x)$.
+	* There are also two different ways of determining the conditional probability distribution
 
 For classification we have a non-linear function $f$ where
-$$y_f(\vec{x}) = f(\vec{w}^T \vec{X} + w_0)$$
-(if we don't consider $\phi_0 = 1$).
+$$y_f(\vec{x}) = f(\vec{w}^T \vec{x} + w_0)$$
+(if we don't consider $\phi_0 = 1$) where the decision boundary is $y(\vec{x}) = c$.
 
 $f$ is called the **activation function**. The inverse of $f$ is called the **link function**.
 
 $y_f$ is a **generalized linear model** since the decision surfaces are linear functions of $\vec{x}$ (TODO: understand this).
 
-### Discriminant Functions
+## Discriminant Functions
 
 A simple version of a linear discriminant function is
 
@@ -186,14 +193,63 @@ For a $D$ dimensional input space, the decision boundary is a $D-1$ dimensional 
 
 $\vec{w}$ determines the orientation of the decision surface and $w_0$ determines it's location.
 
+The decision boundary would be:
+$$y(\vec{x}) = \tilde{\vec{w}}^T \tilde{\vec{x}}$$.
+
+TODO(explain this better).
+
 ### Multiple Classes
 
-TODO
+For $k$ multiple classes we have 
+$$y_k(\vec{x}) = \vec{w}_k^T = w_{k,0}$$
+and assign $x$ to the class with the greatest $y_k$.
+
+### Fisher's linear discriminant
+Fisher's linear discriminant is used to reduce a D-dimensional vector to one dimension using $y=\vec{w}^T\vec{x}$.
 
 ### Perceptron
-TODO
 
-Is a single layer of perceptron a linear discriminant function with 2 classes?
+A Perceptron is a linear discriminant where
+$$f(a) = 1 \text{ if } a \geq 0$$$$ 
+f(a) = 0 \text{ if } a < 0$$ 
+This is a different target scheme that are traditional t vector.
+
+## Probabilistic Generative Models
+
+For a class prior of $p(C_k)$ the posterior is
+
+$$p(C_1|x) = \frac{ p(\vec{x}|C_1)p(C_1) }{ p(\vec{x}|C_1)p(C_1) + p(\vec{x}|C_2) p(C_2)}$$
+
+which can be written as
+
+$$\sigma(a) = \frac{1}{1 + exp(-a)}$$
+where $$a = ln\frac{p(\vec{x}|C_1)p(C_1)}{p(\vec{x}|C_2)p(C_2)}$$.
+
+$\sigma$ is commonly refered to as the sigmoid.
+
+For more than two classes:
+$$p(C_k|\vec{x}) = \frac{exp(a_k)}{\sum_j (exp(a_j))}$$
+this is called the **softmax function**.
+
+--------------
+
+If class conditional densities are gaussian around some point then:
+
+$$p(\vec{x}|C_k) =
+\frac{1}{(2*pi)^{\frac{D}{2}}} 
+\frac{1}{ |\vec{\Sigma}|^{\frac{1}{2}}} 
+exp\{
+-\frac{1}{2}(\vec{x} - \vec{u}_k) \Sigma^{-1}
+(\vec{x}-\vec{u}_k)
+\}$$
+
+To find the most likely values of a 2 class system, we have:
+$u_{1,ML}= \frac{1}{N_1} \sum \vec{t}_n \vec{x}_n$
+$u_{1,ML} = \frac{1}{N_1} \sum (1-\vec{t}_n) \vec{x}_n$
+$\Sigma = S$
+$S = \frac{N_1}{N}S_1 \frac{N_2}{N}S_2$
+$S_1 = \frac{1}{N_1} \sum(\vec{x}_n-\vec{u}_1)(\vec{x}_n-\vec{u}_1)^T$.
+$S_2 = \frac{1}{N_2} \sum(\vec{x}_n-\vec{u}_2)(\vec{x}_n-\vec{u}_2)^T$.
 
 
 # Neural Networks
