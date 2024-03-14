@@ -195,8 +195,7 @@ $\vec{w}$ determines the orientation of the decision surface and $w_0$ determine
 
 The decision boundary would be:
 $$y(\vec{x}) = \tilde{\vec{w}}^T \tilde{\vec{x}}$$.
-
-TODO(explain this better).
+where $\vec{w}$ is perpendicular to the decision boundary.
 
 ### Multiple Classes
 
@@ -204,15 +203,22 @@ For $k$ multiple classes we have
 $$y_k(\vec{x}) = \vec{w}_k^T = w_{k,0}$$
 and assign $x$ to the class with the greatest $y_k$.
 
-### Fisher's linear discriminant
+### Calculating values for linear discriminant
+
+#### Least squares
+
+
+#### Fisher's linear discriminant
 Fisher's linear discriminant is used to reduce a D-dimensional vector to one dimension using $y=\vec{w}^T\vec{x}$.
 
-### Perceptron
+#### Perceptron
 
 A Perceptron is a linear discriminant where
 $$f(a) = 1 \text{ if } a \geq 0$$$$ 
 f(a) = 0 \text{ if } a < 0$$ 
 This is a different target scheme that are traditional t vector.
+
+You can use the perceptron to calculate values for the linear discriminant.
 
 ## Probabilistic Generative Models
 
@@ -225,7 +231,7 @@ which can be written as
 $$\sigma(a) = \frac{1}{1 + exp(-a)}$$
 where $$a = ln\frac{p(\vec{x}|C_1)p(C_1)}{p(\vec{x}|C_2)p(C_2)}$$.
 
-$\sigma$ is commonly refered to as the sigmoid.
+$\sigma$ is commonly referred to as the sigmoid.
 
 For more than two classes:
 $$p(C_k|\vec{x}) = \frac{exp(a_k)}{\sum_j (exp(a_j))}$$
