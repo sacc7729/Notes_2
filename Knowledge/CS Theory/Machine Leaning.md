@@ -146,7 +146,9 @@ $$\vec{y}(\vec{x}, \vec{w}) = W^T\vec{\phi}(\vec{x})$$
 	* Why two layers?
 	* Does the deformation of a topological mapping help (by way of the sigmoid)
 * Maybe play around with Cat theory
-	* e.g. A set (which a vector belongs to) transforms to a function (technically to a probability of functions for a sample) under the Gaussian transofmation
+	* e.g. A set (which a vector belongs to) transforms to a function (technically to a probability of functions for a sample) under the Gaussian transformation
+* How does this relate to the Lagrangian for minimizing a function
+* If any continuous function can be written as a sum of sines and cosines, can we make any function with $\phi \sim sin(x)$
 
 ### Bias-Variance Decomposition
 TODO
@@ -194,25 +196,39 @@ For a $D$ dimensional input space, the decision boundary is a $D-1$ dimensional 
 $\vec{w}$ determines the orientation of the decision surface and $w_0$ determines it's location.
 
 The decision boundary would be:
-$$y(\vec{x}) = \tilde{\vec{w}}^T \tilde{\vec{x}}$$.
+$$y(\vec{x}) = \tilde{w}^T \tilde{x}$$.
 where $\vec{w}$ is perpendicular to the decision boundary.
+
+Note: in order to have $w_0$ we write $\tilde{w} = (w_0, \vec{w}^T)^T$ and 
+and $\tilde{x} = (1, \vec{x}^T)^T$
 
 ### Multiple Classes
 
 For $k$ multiple classes we have 
-$$y_k(\vec{x}) = \vec{w}_k^T = w_{k,0}$$
+$$y_k(\vec{x}) = \vec{w}_k^T \vec{x}  + w_{k,0}$$
 and assign $x$ to the class with the greatest $y_k$.
 
 ### Calculating values for linear discriminant
 
 #### Least squares
 
+We can represent a group of $y_k(\vec{x})$ as $\vec{y}(\vec{x})$
+where $\vec{y}(\vec{x}) = \tilde{W}^T \tilde{x}$
+
+We can write the sum-of-squares error function as:
+$$E_D(\tilde{W}) = \frac{1}{2} Tr\{
+
+(\tilde{X}\tilde{W} - T)^T
+(\tilde{X}\tilde{W} - T)
+\}$$ Minimizing $E_D$ by finding $\nabla_W E_D = 0$
+gives us
+
+$\tilde{W}_{ML} = (\tilde{X}^T\tilde{X})^{-1}\tilde{X}^T T$
 
 #### Fisher's linear discriminant
 Fisher's linear discriminant is used to reduce a D-dimensional vector to one dimension using $y=\vec{w}^T\vec{x}$.
 
 #### Perceptron
-
 A Perceptron is a linear discriminant where
 $$f(a) = 1 \text{ if } a \geq 0$$$$ 
 f(a) = 0 \text{ if } a < 0$$ 
