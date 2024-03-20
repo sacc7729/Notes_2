@@ -325,7 +325,7 @@ $\delta$ is referred to as error.  $\delta_k = y_k - t_k$
 $$\delta_j = \frac{\partial E_n}{\partial a_j} = \sum \frac{\partial E_n}{\partial a_k} \frac{\partial a_k}{\partial a_j} = h'(a_j)\sum_k w_{kj}\delta_k$$
 4. Evaluate the derivatives
 
-$$\frac{\partial E_n}{\partial w_{ji}} \delta_j z_i$$
+$$\frac{\partial E_n}{\partial w_{ji}} = \delta_j z_i$$
 
 ----------------------------
 
