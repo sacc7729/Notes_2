@@ -276,5 +276,75 @@ $S_2 = \frac{1}{N_2} \sum(\vec{x}_n-\vec{u}_2)(\vec{x}_n-\vec{u}_2)^T$.
 
 # Neural Networks
 
+## Feed Forward Network
+
+For a two layer network, $y_k$ is given by:
+
+$$y_k(\vec{x}, \vec{w}) = \sigma(\sum_{j=0}^M w_{kj}^{(2)}
+h(\sum_{i=0}^Dw_{ji}^{(1)}x_i))$$
+where $\sigma$ is the activation function for the nodes in the second layer, $h$ is the activation function for the nodes in the first layer.
+
+A two-layer network (one hidden layer) with linear outputs can approximate any continuous function on a compact input domain (given sufficient hidden units).
+
+----------------------------
+Note:
+
+For regressions we had:
+
+$y(\vec{x},\vec{w}) = \sum \limits_{j=0}^{M} w_j \phi_j(\vec{x}) \text{ where } \phi_0=1$
+For classification we have 
+
+$y(\vec{x},\vec{w}) = f(\sum \limits_{j=0}^{M} w_j \phi_j(\vec{x})) \text{ where } \phi_0=1$
+
+A neural network is basically a regression/classification based on classifications.
+
+## Training
+
+The Error function $E(\vec{w}) = \frac{1}{2} \sum||\vec{y}_n(\vec{x}_n, \vec{w})-\vec{t}_n||^2$ 
+
+is a surface over $w$ space.
+
+To solve for $w$ **efficiently** we want to use gradient descent (using derivate of $E$ to step towards the local minimum).
+There are many places where $\nabla E = 0$ (i.e. saddle point, local minimum).
+
+TODO(clean this up, mixing back propagation and grad descent)
+
+To get the gradient of an error function, we use **back propagation**.  This is typically done in two stage:
+
+* Compute the derivatives of the error function with respect to the weights (backpropagation?)
+* Compute the adjustments to be made to the weights (usually gradient descent)
+
+The steps for backpropagation are:
+
+1. Propagate through the network to get the activation (node value) for all the hidden and output units
+2. Evaluate $\delta_k$ for all the output units
+
+$\delta$ is referred to as error.  $\delta_k = y_k - t_k$
+
+3. Backpropagate to obtain the $\delta_j$ for the hidden units
+$$\delta_j = \frac{\partial E_n}{\partial a_j} = \sum \frac{\partial E_n}{\partial a_k} \frac{\partial a_k}{\partial a_j} = h'(a_j)\sum_k w_{kj}\delta_k$$
+4. Evaluate the derivatives
+
+$$\frac{\partial E_n}{\partial w_{ji}} \delta_j z_i$$
+
+----------------------------
+
+Terminology:
+
+$a_j = \sum_i w_{ji}z_i$ (e.g. $w_{ji}$ is the weight from $z_i$ to $z_j$).
+
+$z_j = h(a_j)$ (where $h$ is the activation function and $z_j$ is the value of the node)
+
+$E = \sum_{n=1}^N E_n(\vec{w})$ (e.g. the total error is the sum of the errors for each input $n$.)
+
+The chain rule for partial derivatives gives
+
+$\frac{\partial E_n}{\partial w_{ji}} = \frac{\partial E_n}{\partial a_j} \frac{\partial a_j}{\partial w_{ji}}$
+
+
+By definition (it's just notation):
+$$\delta_j = \frac{\partial E_n}{\partial a_j}$$
+
+TODO: Why not $z_j$????
 # Kernel Methods
 
