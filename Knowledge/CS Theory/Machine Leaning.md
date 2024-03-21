@@ -327,6 +327,8 @@ $$\delta_j = \frac{\partial E_n}{\partial a_j} = \sum \frac{\partial E_n}{\parti
 
 $$\frac{\partial E_n}{\partial w_{ji}} = \delta_j z_i$$
 
+Note: Backpropagation and gradient descent don't work well for deep learning (more than one hidden layer) without some tweaks.  Some tweaks involve using Convolutional Neural Networks (which can map local neurons to a single neuron in the hidden layer and uses the same weights).
+
 ----------------------------
 
 Terminology:
