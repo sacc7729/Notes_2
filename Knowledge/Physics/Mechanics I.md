@@ -43,4 +43,7 @@ $\vec{\tau} = 0 \implies \vec{L} = c_1$
 
 
 
+## Lagrangian
+
+
 
