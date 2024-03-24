@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/CS Theory/Machine Leaning.md",
+                "file": "Knowledge/Physics/Mechanics I.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge/CS Theory/Machine Leaning.md",
+                "file": "Knowledge/Physics/Mechanics I.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge/CS Theory/Machine Leaning.md",
+                "file": "Knowledge/Physics/Mechanics I.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/CS Theory/Machine Leaning.md"
+                "file": "Knowledge/Physics/Mechanics I.md"
               }
             }
           },
@@ -209,16 +209,20 @@
   },
   "active": "d07f23ea3958e66d",
   "lastOpenFiles": [
+    "Knowledge/Physics/Mechanics II.md",
+    "Knowledge/Physics/Mechanics I.md",
+    "Knowledge/Math/Number Theory.md",
+    "Knowledge/Math/Linear Algebra.md",
+    "Knowledge/Math/Group Classification.md",
+    "Knowledge/Math/Group Action.md",
+    "Knowledge/Math/Graph Theory.md",
+    "Knowledge/Math/Discrete Mathematics.md",
+    "Knowledge/CS Theory/Machine Leaning.md",
     "Knowledge/Math/Probability.md",
     "Knowledge/Math/Abstract Algebra.md",
     "Knowledge/Math/Set Theory.md",
-    "Knowledge/Math/Group Action.md",
-    "Knowledge/Math/Group Classification.md",
     "Knowledge/Math/Calculus.md",
-    "Knowledge/Math/Number Theory.md",
-    "Knowledge/Math/Linear Algebra.md",
     "Knowledge/TODO.md",
-    "Knowledge/CS Theory/Machine Leaning.md",
     "2024-02-04.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
@@ -234,10 +238,6 @@
     "Knowledge/Programming Languages/R.md",
     "Knowledge/Programming Languages/Python.md",
     "Knowledge/Programming Languages/Javascript.md",
-    "Knowledge/Programming Languages/Java.md",
-    "Knowledge/Programming Languages/Haskell.md",
-    "Knowledge/Programming Languages/GO.md",
-    "Knowledge/Programming Languages/Dart.md",
     "Knowledge/Economics/Business",
     "Knowledge/Other",
     "Knowledge/Economics"

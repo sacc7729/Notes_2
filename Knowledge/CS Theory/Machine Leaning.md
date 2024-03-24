@@ -347,6 +347,3 @@ $\frac{\partial E_n}{\partial w_{ji}} = \frac{\partial E_n}{\partial a_j} \frac{
 By definition (it's just notation):
 $$\delta_j = \frac{\partial E_n}{\partial a_j}$$
 
-TODO: Why not $z_j$????
-# Kernel Methods
-
