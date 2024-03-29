@@ -1,3 +1,48 @@
+
+-------------------------
+TODO: cheat sheet stuff....
+
+e.g. 
+
+Nabla, Cartesian
+$$\nabla f =
+\frac{\partial f}{\partial x}\hat{x} +
+\frac{\partial f}{\partial y}\hat{y} +
+\frac{\partial f}{\partial z}\hat{z}$$
+$$\nabla \cdot \mathbf{f} =
+\frac{\partial f_x}{\partial x} +
+\frac{\partial f_y}{\partial y} +
+\frac{\partial f_z}{\partial z}$$
+$$\nabla \times \mathbf{f} = 
+(\frac{\partial f_z}{\partial y} - \frac{\partial f_y}{\partial z})\hat{x} +
+(\frac{\partial f_x}{\partial z} - \frac{\partial f_z}{\partial x})\hat{y} +
+(\frac{\partial f_y}{\partial x} - \frac{\partial f_x}{\partial y})\hat{z} +
+$$
+$$\nabla \times \nabla \cdot \mathbf{f} = 0 \text{ ..... in }R^3$$
+$$\nabla \cdot \nabla \equiv \nabla^2 $$
+For closed surfaces:
+$$\int \mathbf{A} \cdot d\mathbf{s} =
+\int \int \nabla \times \mathbf{A} \cdot d\mathbf{a}$$
+$$\int \int \int (\nabla \cdot \mathbf{A}) dV) =
+\int \int (\mathbf{F} \cdot d\mathbf{S})$$
+
+
+Combining:
+
+chain rule: $$d(f \circ g)_a = df_{g(a)} \cdot dg_a$$
+total derivative (.... can variables be dependent)
+
+$$\frac{df(a, b, c)}{dx} =
+\frac{\partial f}{\partial t} + 
+\frac{\partial f}{\partial a} \frac{\partial a}{\partial x} +
+\frac{\partial f}{\partial b} \frac{\partial b}{\partial x} +
+\frac{\partial f}{\partial c} \frac{\partial c}{\partial x}
+$$
+
+
+
+---------------------------
+
 The limit is the value of $f(x)$ as $x$ goes to $a$.  The limit is denoted by:
 \begin{equation*}
   \lim_{x \to a} f(x)

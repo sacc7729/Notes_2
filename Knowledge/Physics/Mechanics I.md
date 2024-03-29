@@ -45,5 +45,15 @@ $\vec{\tau} = 0 \implies \vec{L} = c_1$
 
 ## Lagrangian
 
+TODO, questions from apple notes
 
+(e.g. what happens when F not conservative, can we do calculus like that, why $y = y_0 + y_{minimizing}$.
+
+## Hamiltonian
+
+TODO
+
+## Noethers
+
+TODO: Maybe put in different section
 

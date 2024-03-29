@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/Physics/Mechanics I.md",
+                "file": "Knowledge/Physics/Electrodynamics.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge/Physics/Mechanics I.md",
+                "file": "Knowledge/Physics/Electrodynamics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge/Physics/Mechanics I.md",
+                "file": "Knowledge/Physics/Electrodynamics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/Physics/Mechanics I.md"
+                "file": "Knowledge/Physics/Electrodynamics.md"
               }
             }
           },
@@ -209,8 +209,11 @@
   },
   "active": "d07f23ea3958e66d",
   "lastOpenFiles": [
-    "Knowledge/Physics/Mechanics II.md",
+    "Knowledge/Math/Calculus.md",
+    "Knowledge/Physics/Electrodynamics.md",
+    "Knowledge/TODO.md",
     "Knowledge/Physics/Mechanics I.md",
+    "Knowledge/Physics/Mechanics II.md",
     "Knowledge/Math/Number Theory.md",
     "Knowledge/Math/Linear Algebra.md",
     "Knowledge/Math/Group Classification.md",
@@ -221,8 +224,6 @@
     "Knowledge/Math/Probability.md",
     "Knowledge/Math/Abstract Algebra.md",
     "Knowledge/Math/Set Theory.md",
-    "Knowledge/Math/Calculus.md",
-    "Knowledge/TODO.md",
     "2024-02-04.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
@@ -237,7 +238,6 @@
     "Knowledge/Programming Languages/SQL.md",
     "Knowledge/Programming Languages/R.md",
     "Knowledge/Programming Languages/Python.md",
-    "Knowledge/Programming Languages/Javascript.md",
     "Knowledge/Economics/Business",
     "Knowledge/Other",
     "Knowledge/Economics"
