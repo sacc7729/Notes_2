@@ -7,7 +7,7 @@ A Student's Guide to Maxwell's Equations
 David Tong
 
 ------------------------------
-TODO: maxwell's
+Maxwell's equations (does not describe forces only fields)
 
 $$\nabla \cdot \mathbf{E} =
 \frac{\rho}{\epsilon_0}$$
@@ -21,6 +21,8 @@ $$\nabla \times \mathbf{B} =
 \mu_0 \mathbf{J} +
 \mu_0\epsilon_0\frac{\mathbf{\partial E}}{\partial t}$$
 
+Lorentz force:
+$$\vec{F} = q(\vec{E} + \vec{v} \times \vec{B})$$
 ---------------------------
 
 ## Intro
@@ -48,3 +50,8 @@ Where $\phi$ is the electrostatic potential.
 $\nabla \cdot \mathbf{E} = \frac{\rho}{\epsilon_0} = - \nabla^2  \phi$
 
 ## Magnetostatics
+
+## Radiation
+
+## Matter
+

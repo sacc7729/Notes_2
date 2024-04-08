@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/Physics/Electrodynamics.md",
+                "file": "Knowledge/Physics/Mechanics I.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge/Physics/Electrodynamics.md",
+                "file": "Knowledge/Physics/Mechanics I.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge/Physics/Electrodynamics.md",
+                "file": "Knowledge/Physics/Mechanics I.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/Physics/Electrodynamics.md"
+                "file": "Knowledge/Physics/Mechanics I.md"
               }
             }
           },
@@ -207,10 +207,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d07f23ea3958e66d",
+  "active": "97506d7dba81fa8d",
   "lastOpenFiles": [
-    "Knowledge/Math/Calculus.md",
+    "Knowledge/Physics/Quantum Mechanics I.md",
+    "Knowledge/Physics/Quantum Mechanics III.md",
+    "Knowledge/Physics/Quantum Mechanics II.md",
+    "Knowledge/Physics/Electrodynamics II.md",
     "Knowledge/Physics/Electrodynamics.md",
+    "Knowledge/Math/Calculus.md",
     "Knowledge/TODO.md",
     "Knowledge/Physics/Mechanics I.md",
     "Knowledge/Physics/Mechanics II.md",
@@ -234,10 +238,6 @@
     "Knowledge/Software Engineering/Software Architecture I.md",
     "Knowledge/Software Engineering/Organizations that Build Software.md",
     "Knowledge/Software Engineering/Dealing with Large Amounts of Data.md",
-    "Knowledge/Software Engineering/About.md",
-    "Knowledge/Programming Languages/SQL.md",
-    "Knowledge/Programming Languages/R.md",
-    "Knowledge/Programming Languages/Python.md",
     "Knowledge/Economics/Business",
     "Knowledge/Other",
     "Knowledge/Economics"
