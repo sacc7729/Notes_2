@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/Physics/Mechanics I.md",
+                "file": "Knowledge/Physics/Electronics I.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge/Physics/Mechanics I.md",
+                "file": "Knowledge/Physics/Electronics I.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge/Physics/Mechanics I.md",
+                "file": "Knowledge/Physics/Electronics I.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/Physics/Mechanics I.md"
+                "file": "Knowledge/Physics/Electronics I.md"
               }
             }
           },
@@ -207,16 +207,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "97506d7dba81fa8d",
+  "active": "d07f23ea3958e66d",
   "lastOpenFiles": [
+    "Knowledge/Physics/Electrostatics I.md",
+    "Knowledge/Physics/Electronics II.md",
+    "Knowledge/Physics/Electronics I.md",
+    "Knowledge/Physics/Quantum Field Theory I.md",
     "Knowledge/Physics/Quantum Mechanics I.md",
+    "Knowledge/Physics/Mechanics I.md",
     "Knowledge/Physics/Quantum Mechanics III.md",
     "Knowledge/Physics/Quantum Mechanics II.md",
     "Knowledge/Physics/Electrodynamics II.md",
     "Knowledge/Physics/Electrodynamics.md",
     "Knowledge/Math/Calculus.md",
     "Knowledge/TODO.md",
-    "Knowledge/Physics/Mechanics I.md",
     "Knowledge/Physics/Mechanics II.md",
     "Knowledge/Math/Number Theory.md",
     "Knowledge/Math/Linear Algebra.md",
@@ -234,10 +238,6 @@
     "Untitled.canvas",
     "Knowledge/Aerospace Engineering/Aerodynamics I.md",
     "Machine Learning Problem Sets.md",
-    "Knowledge/Software Engineering/Software Architecture II.md",
-    "Knowledge/Software Engineering/Software Architecture I.md",
-    "Knowledge/Software Engineering/Organizations that Build Software.md",
-    "Knowledge/Software Engineering/Dealing with Large Amounts of Data.md",
     "Knowledge/Economics/Business",
     "Knowledge/Other",
     "Knowledge/Economics"
