@@ -15,8 +15,8 @@ where V* is a mapping from V to a scalar.
 
 ----------------
 
-The $ith$ component of vectors are typically written as $v_i$ .
-The $ith$ component of covectors are written as $c^j$.
+The $ith$ component of vectors are typically written as $v^i$ .
+The $ith$ component of covectors are written as $c_j$.
 
 TODO: un mix this up, I think covectors are rows
 
