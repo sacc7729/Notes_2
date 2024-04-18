@@ -30,13 +30,15 @@ v_1 \\ v_2 \\ v_3
 \end{bmatrix}$$
 We can write it as a sum.   In einstein notation we drop the summation sign.a
 
-$$y = \sum_\limits{i=1}^3 c_iv^j
-= c_1v^1 + c_2v^2 + c_3v^3 =
-c_iv^j$$
+$$y = \sum_\limits{i=1}^3 v^ic_i
+= v^1c_1 + v^2c_2 + v^3c_3 =
+v^ic_i$$
 
 A covector kind of sets the direction of a topographical map.
 
 -------------
 To do: transformations....
+
+4 + L + Tesnor BFs
 
 ------------------
