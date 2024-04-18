@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/Physics/Electronics I.md",
+                "file": "Knowledge/Math/Tensors.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge/Physics/Electronics I.md",
+                "file": "Knowledge/Math/Tensors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge/Physics/Electronics I.md",
+                "file": "Knowledge/Math/Tensors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/Physics/Electronics I.md"
+                "file": "Knowledge/Math/Tensors.md"
               }
             }
           },
@@ -209,9 +209,10 @@
   },
   "active": "d07f23ea3958e66d",
   "lastOpenFiles": [
+    "Knowledge/Physics/Electronics I.md",
+    "Knowledge/Math/Tensors.md",
     "Knowledge/Physics/Electrostatics I.md",
     "Knowledge/Physics/Electronics II.md",
-    "Knowledge/Physics/Electronics I.md",
     "Knowledge/Physics/Quantum Field Theory I.md",
     "Knowledge/Physics/Quantum Mechanics I.md",
     "Knowledge/Physics/Mechanics I.md",
@@ -237,7 +238,6 @@
     "Untitled 1.canvas",
     "Untitled.canvas",
     "Knowledge/Aerospace Engineering/Aerodynamics I.md",
-    "Machine Learning Problem Sets.md",
     "Knowledge/Economics/Business",
     "Knowledge/Other",
     "Knowledge/Economics"
