@@ -16,9 +16,13 @@ where V* is a mapping from V to a scalar.
 ----------------
 
 The $ith$ component of vectors are typically written as $v^i$ .
-The $ith$ component of covectors are written as $c_j$.
+The vector can be written as $\vec{v} = v^ie_i$.
 
-TODO: un mix this up, I think covectors are rows
+The $ith$ component of covectors are written as $c_j$.
+The covector can be written as $\vec{c} = c_i \epsilon^i$
+
+Note: An index in the subscript indicates that the item scales with the basis change.  An index in the superscript indicates that the item scales against the basis change.
+
 
 Instead of writing vector multiplication as $$
 \begin{bmatrix}
@@ -37,9 +41,32 @@ v^ic_i$$
 A covector kind of sets the direction of a topographical map.
 
 -------------
-To do: transformations....
+Transformations:
+$$B=F^{-1}$$
+For covariant (0,1):
 
-4 + L + Tesnor BFs
+$$c_j' = F^i_jc_i$$
+$$e_j' = F^i_je_i$$
+For contravariant (1,0):
+$$x'^i=B^i_j x^j$$
+$$\epsilon'^i=B^i_j \epsilon^j$$
+For tensor (1,1):
+$$L'^i_j = B^i_k L^k_l F^l_j$$
+
+Note: The above is linear map that makes a copy of the basis and transforms (stretches + rotates) it.
+
+For tensor (0,2):
+$$g'_{ij} = F^k_i F^l_j g_{kl}$$
+$$$$
+------------------
+
+TODO: Tensor product:
 
 ------------------
-Tensor products....
+TODO: Tensor as a combination of vectors and covectors
+
+---------------------
+TODO: examples: electromagnetic tensor, other stuff from david tong....
+
+--------------------
+TODO in a long time: derivatives
