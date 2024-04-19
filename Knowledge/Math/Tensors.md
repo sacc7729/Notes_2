@@ -95,6 +95,29 @@ This is technically the Kroenecker delta, but it's basically a tensor product.  
 ------------------
 TODO: Tensor as a combination of vectors and covectors
 
+$$D^i_{jk} = 
+\begin{bmatrix}
+\begin{bmatrix}
+\begin{bmatrix}
+v \\ w
+\end{bmatrix}
+\begin{bmatrix}
+x \\ y
+\end{bmatrix}
+\end{bmatrix} &&
+\begin{bmatrix}
+\begin{bmatrix}
+a \\ b 
+\end{bmatrix}
+\begin{bmatrix}
+c \\ d 
+\end{bmatrix}
+\end{bmatrix}
+\end{bmatrix}
+$$
+
+$$D^i_{jk} = D^i_{jk}e_i\epsilon^j \epsilon^k$$ but we typically omit the basis.
+
 ---------------------
 TODO: examples: electromagnetic tensor, other stuff from david tong....
 
