@@ -60,7 +60,37 @@ $$g'_{ij} = F^k_i F^l_j g_{kl}$$
 $$$$
 ------------------
 
-TODO: Tensor product:
+A tensor product distributes the thing on the left to each item on the right.  Example:
+
+$$\vec{v} \otimes \alpha =
+\begin{bmatrix}
+v^i \\ v^j \\ v_k
+\end{bmatrix}
+\begin{bmatrix}
+\alpha_a, \alpha_b, \alpha_c
+\end{bmatrix} =
+
+\begin{bmatrix}
+\alpha_a
+\begin{bmatrix}
+v^i \\ v^j \\ v_k
+\end{bmatrix},
+\alpha_b,\begin{bmatrix}
+v^i \\ v^j \\ v_k
+\end{bmatrix}, \alpha_c\begin{bmatrix}
+v^i \\ v^j \\ v_k
+\end{bmatrix}
+\end{bmatrix} =
+
+\begin{bmatrix}
+\alpha_a v^i && \alpha_b v^i &&  \alpha_c v^i \\
+\alpha_a v^j && \alpha_b v^j &&  \alpha_c v^j \\
+\alpha_a v^k && \alpha_b v^k &&  \alpha_c v^k \\
+\end{bmatrix}
+$$
+
+This is technically the Kroenecker delta, but it's basically a tensor product.  For a "real" tensor product, each entry is like $e_i \otimes \epsilon^j$ (e.g. a matrix with only one zero).
+
 
 ------------------
 TODO: Tensor as a combination of vectors and covectors
