@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/Math/Tensors.md",
+                "file": "Knowledge/Physics/Electromagnetic Tensor.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge/Math/Tensors.md",
+                "file": "Knowledge/Physics/Electromagnetic Tensor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge/Math/Tensors.md",
+                "file": "Knowledge/Physics/Electromagnetic Tensor.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/Math/Tensors.md"
+                "file": "Knowledge/Physics/Electromagnetic Tensor.md"
               }
             }
           },
@@ -209,8 +209,10 @@
   },
   "active": "d07f23ea3958e66d",
   "lastOpenFiles": [
-    "Knowledge/Math/Probability.md",
+    "Knowledge/Physics/Electrodynamics.md",
+    "Knowledge/Physics/Electromagnetic Tensor.md",
     "Knowledge/Math/Tensors.md",
+    "Knowledge/Math/Probability.md",
     "Knowledge/Physics/Electronics I.md",
     "Knowledge/Physics/Electrostatics I.md",
     "Knowledge/Physics/Electronics II.md",
@@ -220,7 +222,6 @@
     "Knowledge/Physics/Quantum Mechanics III.md",
     "Knowledge/Physics/Quantum Mechanics II.md",
     "Knowledge/Physics/Electrodynamics II.md",
-    "Knowledge/Physics/Electrodynamics.md",
     "Knowledge/Math/Calculus.md",
     "Knowledge/TODO.md",
     "Knowledge/Physics/Mechanics II.md",
@@ -237,7 +238,6 @@
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "Knowledge/Aerospace Engineering/Aerodynamics I.md",
     "Knowledge/Economics/Business",
     "Knowledge/Other",
     "Knowledge/Economics"
