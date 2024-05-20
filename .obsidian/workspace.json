@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/Physics/Electromagnetic Tensor.md",
+                "file": "Knowledge/Math/Topology.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge/Physics/Electromagnetic Tensor.md",
+                "file": "Knowledge/Math/Topology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge/Physics/Electromagnetic Tensor.md",
+                "file": "Knowledge/Math/Topology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/Physics/Electromagnetic Tensor.md"
+                "file": "Knowledge/Math/Topology.md"
               }
             }
           },
@@ -209,8 +209,8 @@
   },
   "active": "d07f23ea3958e66d",
   "lastOpenFiles": [
-    "Knowledge/Physics/Electrodynamics.md",
     "Knowledge/Physics/Electromagnetic Tensor.md",
+    "Knowledge/Physics/Electrodynamics.md",
     "Knowledge/Math/Tensors.md",
     "Knowledge/Math/Probability.md",
     "Knowledge/Physics/Electronics I.md",
