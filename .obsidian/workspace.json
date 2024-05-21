@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/Math/Topology.md",
+                "file": "Knowledge/Math/Linear Algebra.md",
                 "mode": "source",
                 "source": false
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge/Math/Topology.md",
+                "file": "Knowledge/Math/Linear Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge/Math/Topology.md",
+                "file": "Knowledge/Math/Linear Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/Math/Topology.md"
+                "file": "Knowledge/Math/Linear Algebra.md"
               }
             }
           },
@@ -209,10 +209,20 @@
   },
   "active": "d07f23ea3958e66d",
   "lastOpenFiles": [
+    "Knowledge/Math/Differential Geometry.md",
+    "Knowledge/Math/Complex Analysis.md",
+    "Knowledge/Math/Category Theory.md",
+    "Knowledge/Math/Real Analysis.md",
+    "Knowledge/Math/Set Theory.md",
+    "Knowledge/Math/Discrete Mathematics.md",
+    "Knowledge/Math/Number Theory.md",
+    "Knowledge/Math/Measure Theory.md",
+    "Knowledge/Math/Mathematics for Computer Science.md",
+    "Knowledge/Math/Probability.md",
+    "Knowledge/Math/Topology.md",
     "Knowledge/Physics/Electromagnetic Tensor.md",
     "Knowledge/Physics/Electrodynamics.md",
     "Knowledge/Math/Tensors.md",
-    "Knowledge/Math/Probability.md",
     "Knowledge/Physics/Electronics I.md",
     "Knowledge/Physics/Electrostatics I.md",
     "Knowledge/Physics/Electronics II.md",
@@ -225,16 +235,6 @@
     "Knowledge/Math/Calculus.md",
     "Knowledge/TODO.md",
     "Knowledge/Physics/Mechanics II.md",
-    "Knowledge/Math/Number Theory.md",
-    "Knowledge/Math/Linear Algebra.md",
-    "Knowledge/Math/Group Classification.md",
-    "Knowledge/Math/Group Action.md",
-    "Knowledge/Math/Graph Theory.md",
-    "Knowledge/Math/Discrete Mathematics.md",
-    "Knowledge/CS Theory/Machine Leaning.md",
-    "Knowledge/Math/Abstract Algebra.md",
-    "Knowledge/Math/Set Theory.md",
-    "2024-02-04.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
