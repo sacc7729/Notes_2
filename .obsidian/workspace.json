@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "d508f976155c0b97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge/CS Theory/Machine Leaning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9af88c7276d382d4",
             "type": "leaf",
             "state": {
@@ -63,7 +75,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -121,7 +134,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "76bc7a3380fdc593",
@@ -137,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge/Math/Linear Algebra.md",
+                "file": "Knowledge/CS Theory/Machine Leaning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +168,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge/Math/Linear Algebra.md",
+                "file": "Knowledge/CS Theory/Machine Leaning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +191,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/Math/Linear Algebra.md"
+                "file": "Knowledge/CS Theory/Machine Leaning.md"
               }
             }
           },
@@ -207,7 +221,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d07f23ea3958e66d",
+  "active": "d508f976155c0b97",
   "lastOpenFiles": [
     "Knowledge/Math/Differential Geometry.md",
     "Knowledge/Math/Complex Analysis.md",

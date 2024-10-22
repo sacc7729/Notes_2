@@ -105,7 +105,7 @@ K nearest neighbors is a technique to classify a point by looking at it's k near
 
 linear models go by the function:
 $y(\vec{x},\vec{w}) = w_0 + \sum \limits_{j=1}^{M-1} w_j \phi_j(\vec{x})$
-$\phi$ is the **basis function** and $w_0$ is the **basis parameter**. $\phi$ does not have to be linear.
+$\phi_j$ is the **basis function** and $w_0$ is the **basis parameter**. $\phi$ does not have to be linear.
 
 **spline functions** break the divide the input space and apply different polynomials to each region.
 
