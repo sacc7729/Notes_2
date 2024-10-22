@@ -122,4 +122,30 @@ $$D^i_{jk} = D^i_{jk}e_i\epsilon^j \epsilon^k$$ but we typically omit the basis.
 TODO: examples: electromagnetic tensor, other stuff from david tong....
 
 --------------------
-TODO in a long time: derivatives
+Differential forms are covectors:
+$$df = \frac{\partial f}{\partial x^i}dx^i$$
+and
+$$\nabla_v f = df(v)$$
+
+The derivative is a vector:
+$$\frac{dR}{d\lambda} = \frac{dx_i}{d\lambda}\frac{\partial R}{\partial x_i} =
+\frac{dx_i}{d\lambda}\hat{x_i}$$ since $$R=x_i\hat{x_i}$$
+
+The Jacobian is the backward/forward transform
+$$J=\frac{\partial f_i}{\partial x_j}$$
+
+---------------------------
+
+TODO(metric tensor and see if this is correct)
+
+The first fundamental form $ds^2$ is inviariant under coordinate transforms.
+
+So is the second fundamental form 
+
+----------------------------------
+Intrinsic vs External geometry
+
+For some $x_i \in R^n$ and $x_j \in R_m$ where n < m.  Then
+$$\frac{dR}{d \lambda} = \frac{dx_i}{d \lambda}\frac{\partial R}{\partial x_i}$$ is intrinsic and 
+
+$$\frac{dR}{d \lambda} = \frac{dx_j}{d \lambda}\frac{\partial R}{\partial x_j}$$ is extrinsic 
