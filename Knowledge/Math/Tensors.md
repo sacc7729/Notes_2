@@ -180,3 +180,5 @@ The inner portion is known as the metric tensor $g$.
 This means that if we have some mapping onto $R^n$ then we can create a $ds^2$ that is invariant of the surface we bound ourselves too / the basis we take.
 
 Since $\frac{\partial R}{\partial u} = \hat{u}$ then we can write the metric tensor in basis form.
+
+TODO: describe why invariant
