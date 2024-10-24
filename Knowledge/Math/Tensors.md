@@ -148,4 +148,35 @@ Intrinsic vs External geometry
 For some $x_i \in R^n$ and $x_j \in R_m$ where n < m.  Then
 $$\frac{dR}{d \lambda} = \frac{dx_i}{d \lambda}\frac{\partial R}{\partial x_i}$$ is intrinsic and 
 
-$$\frac{dR}{d \lambda} = \frac{dx_j}{d \lambda}\frac{\partial R}{\partial x_j}$$ is extrinsic 
+$$\frac{dR}{d \lambda} = \frac{dx_j}{d \lambda}\frac{\partial R}{\partial x_j}$$ is extrinsic.
+
+------------------------
+
+The arc length of a curve is given by
+$$s = \int ||\frac{dR}{d\lambda}|| d\lambda$$
+$$=\int \sqrt{\frac{dR}{d\lambda} \frac{dR}{d\lambda}} d\lambda$$
+$$\int \sqrt{ds^2}$$
+where we defined $ds^2$ by the above equation.  $ds^2$ is known as the first fundamental form and is invariant in all coordinates.
+
+For some extrinsic space in $R^n$. We can embed a surface.
+
+For example:
+
+$$(u(\lambda), v(\lambda)) \rightarrow (x(\lambda), y(\lambda), z(\lambda))$$
+$$\frac{dR}{d\lambda} \cdot \frac{dR}{d\lambda} $$
+$$=(\sum \frac{\partial R}{\partial x_i} \frac{dx_i}{d \lambda}) \cdot 
+(\sum \frac{\partial R}{\partial x_i} \frac{dx_i}{d \lambda})$$
+
+For the u,v example, this means that:
+$$ds^2 =
+\begin{bmatrix}du & dv \end{bmatrix}
+\begin{bmatrix}
+\frac{\partial R}{\partial u}\frac{\partial R}{\partial u} & \frac{\partial R}{\partial u}\frac{\partial R}{\partial v} \\
+\frac{\partial R}{\partial v}\frac{\partial R}{\partial u} & \frac{\partial R}{\partial v}\frac{\partial R}{\partial v}
+\end{bmatrix}
+\begin{bmatrix}du \\ dv\end{bmatrix}$$
+The inner portion is known as the metric tensor $g$. 
+
+This means that if we have some mapping onto $R^n$ then we can create a $ds^2$ that is invariant of the surface we bound ourselves too / the basis we take.
+
+Since $\frac{\partial R}{\partial u} = \hat{u}$ then we can write the metric tensor in basis form.
