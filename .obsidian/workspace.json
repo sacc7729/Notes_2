@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge/Math/Tensors.md",
+                "file": "Knowledge/Physics/Relativity 0.md",
                 "mode": "source",
                 "source": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge/Math/Tensors.md",
+                "file": "Knowledge/Physics/Relativity 0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +167,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge/Math/Tensors.md",
+                "file": "Knowledge/Physics/Relativity 0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/Math/Tensors.md"
+                "file": "Knowledge/Physics/Relativity 0.md"
               }
             }
           },
@@ -220,8 +220,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d508f976155c0b97",
+  "active": "97506d7dba81fa8d",
   "lastOpenFiles": [
+    "Knowledge/Physics/General Relativity I.md",
+    "Knowledge/Physics/Relativity 0.md",
+    "Knowledge/Physics/General Relativity II.md",
+    "Knowledge/Physics/General Relativity IV.md",
+    "Knowledge/Physics/General Relativity III.md",
+    "Knowledge/Math/Tensors.md",
     "Knowledge/CS Theory/Machine Leaning.md",
     "Knowledge/Math/Differential Geometry.md",
     "Knowledge/Math/Complex Analysis.md",
@@ -236,18 +242,12 @@
     "Knowledge/Math/Topology.md",
     "Knowledge/Physics/Electromagnetic Tensor.md",
     "Knowledge/Physics/Electrodynamics.md",
-    "Knowledge/Math/Tensors.md",
     "Knowledge/Physics/Electronics I.md",
     "Knowledge/Physics/Electrostatics I.md",
     "Knowledge/Physics/Electronics II.md",
     "Knowledge/Physics/Quantum Field Theory I.md",
     "Knowledge/Physics/Quantum Mechanics I.md",
     "Knowledge/Physics/Mechanics I.md",
-    "Knowledge/Physics/Quantum Mechanics III.md",
-    "Knowledge/Physics/Quantum Mechanics II.md",
-    "Knowledge/Physics/Electrodynamics II.md",
-    "Knowledge/Math/Calculus.md",
-    "Knowledge/TODO.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
