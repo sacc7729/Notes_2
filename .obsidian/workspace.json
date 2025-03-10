@@ -16,7 +16,9 @@
                 "file": "Knowledge/Math/Linear Algebra.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Linear Algebra"
             }
           },
           {
@@ -28,7 +30,9 @@
                 "file": "Knowledge/Physics/Relativity 0.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Relativity 0"
             }
           },
           {
@@ -40,7 +44,9 @@
                 "file": "Machine Learning Problem Sets.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Machine Learning Problem Sets"
             }
           },
           {
@@ -52,7 +58,9 @@
                 "file": "Knowledge/Math/Probability.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Probability"
             }
           },
           {
@@ -64,7 +72,9 @@
                 "file": "Knowledge/TODO.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "TODO"
             }
           },
           {
@@ -72,11 +82,27 @@
             "type": "leaf",
             "state": {
               "type": "graph",
-              "state": {}
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "c45f15d92cdab048",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge/Aerospace Engineering/Propulsion I.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Propulsion I"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -95,8 +121,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -111,7 +140,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -119,7 +150,9 @@
             "type": "leaf",
             "state": {
               "type": "starred",
-              "state": {}
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -127,7 +160,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -150,7 +185,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Knowledge/Physics/Relativity 0.md",
+                "file": "Knowledge/Aerospace Engineering/Propulsion I.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +193,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Propulsion I"
             }
           },
           {
@@ -167,10 +204,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Knowledge/Physics/Relativity 0.md",
+                "file": "Knowledge/Aerospace Engineering/Propulsion I.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Propulsion I"
             }
           },
           {
@@ -180,8 +219,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -190,8 +233,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Knowledge/Physics/Relativity 0.md"
-              }
+                "file": "Knowledge/Aerospace Engineering/Propulsion I.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Propulsion I"
             }
           },
           {
@@ -199,7 +247,9 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
-              "state": {}
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
         ],
@@ -220,34 +270,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "97506d7dba81fa8d",
+  "active": "c45f15d92cdab048",
   "lastOpenFiles": [
-    "Knowledge/Physics/General Relativity I.md",
-    "Knowledge/Physics/Relativity 0.md",
-    "Knowledge/Physics/General Relativity II.md",
-    "Knowledge/Physics/General Relativity IV.md",
-    "Knowledge/Physics/General Relativity III.md",
-    "Knowledge/Math/Tensors.md",
+    "Knowledge/Aerospace Engineering/Instrument Flying I.md",
+    "Knowledge/Aerospace Engineering/Flying I.md",
+    "Knowledge/Aerospace Engineering/Aircraft I.md",
+    "Knowledge/Aerospace Engineering/Air Traffic Control I.md",
+    "Knowledge/Aerospace Engineering/Aerodynamics I.md",
+    "Knowledge/CS Theory/Programming I.md",
+    "Knowledge/CS Theory/Operating Systems III.md",
+    "Knowledge/CS Theory/Operating Systems II.md",
+    "Knowledge/CS Theory/Operating Systems I.md",
     "Knowledge/CS Theory/Machine Leaning.md",
-    "Knowledge/Math/Differential Geometry.md",
-    "Knowledge/Math/Complex Analysis.md",
-    "Knowledge/Math/Category Theory.md",
-    "Knowledge/Math/Real Analysis.md",
-    "Knowledge/Math/Set Theory.md",
-    "Knowledge/Math/Discrete Mathematics.md",
-    "Knowledge/Math/Number Theory.md",
-    "Knowledge/Math/Measure Theory.md",
-    "Knowledge/Math/Mathematics for Computer Science.md",
-    "Knowledge/Math/Probability.md",
-    "Knowledge/Math/Topology.md",
-    "Knowledge/Physics/Electromagnetic Tensor.md",
-    "Knowledge/Physics/Electrodynamics.md",
-    "Knowledge/Physics/Electronics I.md",
-    "Knowledge/Physics/Electrostatics I.md",
-    "Knowledge/Physics/Electronics II.md",
-    "Knowledge/Physics/Quantum Field Theory I.md",
-    "Knowledge/Physics/Quantum Mechanics I.md",
-    "Knowledge/Physics/Mechanics I.md",
+    "Knowledge/CS Theory/Distributed Systems II.md",
+    "Knowledge/CS Theory/Distributed Systems I.md",
+    "Knowledge/CS Theory/Databases III.md",
+    "Knowledge/CS Theory/Databases II.md",
+    "Knowledge/CS Theory/Databases I.md",
+    "Knowledge/CS Theory/Cryptography II.md",
+    "Knowledge/CS Theory/Cryptography I.md",
+    "Knowledge/CS Theory/Computer Networking I.md",
+    "Knowledge/CS Theory/Computer Graphics I.md",
+    "Knowledge/CS Theory/Computer Architecture II.md",
+    "Knowledge/CS Theory/Computer Architecture I.md",
+    "Knowledge/CS Theory/Computation.md",
+    "Knowledge/CS Theory/Compilers II.md",
+    "Knowledge/CS Theory/Compilers I.md",
+    "Knowledge/CS Theory/Algorithms II.md",
+    "Knowledge/CS Theory/Algorithms I.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
